@@ -1,4 +1,5 @@
 /* .main {} */
+
 .head {
     margin: 10px;
     background-color: #009cff;
@@ -16,3 +17,4 @@
 .mainDiv {
     margin-left: 400px;
 }
+
