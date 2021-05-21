@@ -26,7 +26,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    
     "build": "cd client && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -53,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
   }
 }
