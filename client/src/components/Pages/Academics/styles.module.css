@@ -1,0 +1,41 @@
+.main {}
+.head {
+    margin: 10px;
+    background-color: #009cff;
+    color: black;
+    padding: 5px;
+}
+.body {
+    margin: 30px;
+}
+
+.sidenav {
+    float: left;
+}
+
+.mainDiv {
+    margin-left: 300px;
+}
+/* a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  } */
+  a:visited {
+    color: #009cff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  

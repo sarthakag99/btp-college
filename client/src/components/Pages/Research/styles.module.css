@@ -1,0 +1,55 @@
+.main {}
+.head {
+    margin: 10px;
+    background-color: #009cff;
+    color: black;
+    padding: 5px;
+}
+.body {
+    margin: 30px;
+}
+
+.sidenav {
+    float: left;
+}
+
+.mainDiv {
+    margin-left: 300px;
+}
+
+
+
+/* ------------- */
+
+.nav {
+    background-color: black;
+    /* position: fixed; */
+}
+
+
+.nav-item:hover{
+    background-color: white;
+}
+
+.main-div {
+    margin-left: 10px;
+    
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child1 {
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    
+}  
+
+.float-child2 {
+    width: 70%;
+    float: right;
+    padding-right: 20px;
+    
+}  

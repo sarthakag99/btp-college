@@ -1,0 +1,18 @@
+/* .main {} */
+.head {
+    margin: 10px;
+    background-color: #009cff;
+    color: black;
+    padding: 5px;
+}
+.body {
+    margin: 30px;
+}
+
+.sidenav {
+    float: left;
+}
+
+.mainDiv {
+    margin-left: 400px;
+}
