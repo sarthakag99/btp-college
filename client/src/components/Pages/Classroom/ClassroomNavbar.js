@@ -46,14 +46,14 @@ const ClassroomNavbar = () => {
             <Card>
                 <Card.Content>
                     <Image
-                        floated='right' 
+                        floated='right'
                         size='mini'
                         src='https://react.semantic-ui.com/images/avatar/large/steve.jpg'
                     />
                     <Card.Header>Classroom-2</Card.Header>
                     <Card.Meta>ECE 2021</Card.Meta><br></br>
                     <Card.Description>
-                        <strong>Dr. Sandeep Saini</strong> 
+                        <strong>Dr. Sandeep Saini</strong>
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
@@ -117,13 +117,13 @@ const ClassroomNavbar = () => {
                         <CardExampleGroups />
                     </div>
                 </div>
-            : null}
+                : null}
 
             {state === '1' ? <div>
-                <Route path="/classroom/classroom1" exact component={Classroom1} />
+                <Classroom1 />
             </div> : null}
             {state === '2' ? <div>
-                <Route path="/classroom/classroom2" exact component={Classroom2} />
+                <Classroom2 />
             </div> : null}
 
 

@@ -9,6 +9,8 @@ import Header from "./components/Header/Header";
 import Lab from "./components/Pages/Lab/Lab";
 import Classroom from "./components/Pages/Classroom/Classroom";
 import Academics from "./components/Pages/Academics/Academics";
+import Classroom1 from "./components/Pages/Classroom/SubPages/Classroom1";
+import Classroom2 from "./components/Pages/Classroom/SubPages/Classroom2";
  
 const MainRouter = () => (
     <div>
@@ -22,6 +24,8 @@ const MainRouter = () => (
                 <Route path="/lab" exact component={Lab} />
                 <Route path="/academics" exact component={Academics} />
                 <Route path="/classroom" exact component={Classroom} />
+                <Route path="/classroom/classroom1" exact component={Classroom1} />
+                <Route path="/classroom/classroom2" exact component={Classroom2} />
             </Switch>
         {/* <Footer/> */}
         </Router>
