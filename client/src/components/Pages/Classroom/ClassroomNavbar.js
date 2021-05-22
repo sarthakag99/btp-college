@@ -10,11 +10,11 @@ const ClassroomNavbar = () => {
     const history = useHistory();
     const [state, setState] = useState('0');
     const onClick1 = () => {
-        history.push("/classroom/classroom1");
+        history.push("/classroom1");
         setState('1');
     };
     const onClick2 = () => {
-        history.push("/classroom/classroom2");
+        history.push("/classroom2");
         setState('2');
     };
     const CardExampleGroups = () => (

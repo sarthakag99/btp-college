@@ -24,8 +24,8 @@ const MainRouter = () => (
                 <Route path="/lab" exact component={Lab} />
                 <Route path="/academics" exact component={Academics} />
                 <Route path="/classroom" exact component={Classroom} />
-                <Route path="/classroom/classroom1" exact component={Classroom1} />
-                <Route path="/classroom/classroom2" exact component={Classroom2} />
+                <Route path="/classroom1" exact component={Classroom1} />
+                <Route path="/classroom2" exact component={Classroom2} />
             </Switch>
         {/* <Footer/> */}
         </Router>

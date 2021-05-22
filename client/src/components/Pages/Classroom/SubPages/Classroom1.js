@@ -82,7 +82,11 @@ const Classroom1 = () => {
             };
         });
     };
-
+    function convert(dateToUpdate){
+        let current_datetime = new Date(dateToUpdate)
+        let formatted_date=current_datetime.toDateString()
+        return formatted_date;
+      }
     const displayBlogPost = (posts) => {
         if (!posts.length) return null;
 
@@ -90,7 +94,8 @@ const Classroom1 = () => {
             <div key={index} className={styles['blog-post-display']}>
                 <h3>{post.title}</h3>
                 <p>{post.body}</p>
-                <p>{post.date}</p>
+                <br></br>
+                <p>{convert(post.date)}</p>
             </div>
         ));
     };

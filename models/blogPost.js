@@ -7,7 +7,7 @@ const BlogPostSchema = new Schema({
     body: String,
     date: {
         type: String,
-        default: new Date()
+        default: Date()
 
     }
 });
