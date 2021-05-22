@@ -7,7 +7,8 @@ const BlogPostSchema = new Schema({
     body: String,
     date: {
         type: String,
-        default: Date.now()
+        default: new Date()
+
     }
 });
 

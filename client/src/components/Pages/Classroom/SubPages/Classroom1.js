@@ -90,6 +90,7 @@ const Classroom1 = () => {
             <div key={index} className={styles['blog-post-display']}>
                 <h3>{post.title}</h3>
                 <p>{post.body}</p>
+                <p>{post.date}</p>
             </div>
         ));
     };
