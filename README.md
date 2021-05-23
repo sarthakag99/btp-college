@@ -3,7 +3,9 @@
 This is a Fullstack MERN website of `The LNM Institute Of Information Technology` with classroom feaure similar to google classroom app.
 Express as Backend and React Frontend with MongoDB as Database.
 
+```
 Have a look at [https://btp-college.herokuapp.com/](https://btp-college.herokuapp.com/).
+```
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
@@ -22,20 +24,26 @@ Name - Sarthak Agarwal
 3. MongoDB
 
 ## Installation
-1. Download or clone the repository.
+1. Download or clone the repository using `git clone https://github.com/sarthakag99/btp-college`.
 2. Unzip the downloaded folder.
 3. Through a terminal or Command Prompt all dependencies can be installed using the command "npm install".
 
 ### Install dependencies
+
 1. `npm install`
 2. `cd client`
 3. `npm install`
 4. `cd ..`
 
+
 ### How to Run the Application(Locally)
+
 1. `npm run dev`
 
+
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -69,4 +77,6 @@ You will also see any lint errors in the console.
 2. OS - Linux, Windows, MacOS, etc
 3. Screens - Desktop, Tablets, Mobile
 
-
+## Reflection 
+This is a project built for my B.Tech. course. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
+Originally the idea was presented by my supervisor Mr. Purnendu Karmakar and co-supervisor Dr. Sandeep Saini, and with further research and discussion.
