@@ -1,16 +1,28 @@
 #   The LNM Institute Of Information Technology
 
 This is a Fullstack MERN website of `The LNM Institute Of Information Technology` with classroom feaure similar to google classroom app.
-Express as Backend and React Frontend with MongoDB as Database.
 
-```
-Have a look at [https://btp-college.herokuapp.com/](https://btp-college.herokuapp.com/).
-```
+![forthebadge](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![forthebadge](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![forthebadge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![forthebadge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
 
+React as Frontend  
+
+Express and Node as Backend  
+
+MongoDB as Database 
+
+
+Have a look at  [https://btp-college.herokuapp.com/](https://btp-college.herokuapp.com/)
+
+\
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
+
+
+
 
 ## Project Status
 This project is currently in development. Users can post announcements and view them. Many other functionalitites are in progress.
@@ -41,9 +53,9 @@ Name - Sarthak Agarwal
 1. `npm run dev`
 
 
-```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-```
+
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
