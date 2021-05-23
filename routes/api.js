@@ -50,6 +50,22 @@ router.get('/name', (req, res) => {
     res.json(data);
 });
 
+// router.get('/getclassroom', (req, res) => {
+//     console.log("testreq "+req.query.classid);
+//     // res.send("server ");
+//     BlogPost.findOne({
+//         _id:req.query.classid,
+
+//     })
+//         .then((data) => {
+//             console.log('Data:', data);
+//             res.json(data);
+//         })
+//         .catch((error) => {
+//             console.log('error:', error);
+//         });
+// });
+
 
 
 module.exports = router;
