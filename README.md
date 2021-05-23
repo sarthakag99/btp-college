@@ -1,6 +1,6 @@
 #   The LNM Institute Of Information Technology
 
-This is a Fullstack MERN website of `The LNM Institute Of Information Technology` with classroom feaure similar to google classroom app.
+This is a MERN stack website of `The LNM Institute Of Information Technology` with classroom feaure similar to google classroom app.
 
 ![forthebadge](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![forthebadge](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
