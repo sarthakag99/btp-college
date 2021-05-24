@@ -7,7 +7,7 @@ const BlogPost = require('../models/blogPost');
  
 
 //Routes
-router.get('/', (req, res) => {
+router.get('/*', (req, res) => {
     BlogPost.find({ })
         .then((data) => {
             console.log('Data:', data);
