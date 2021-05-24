@@ -18,15 +18,14 @@ router.get('/', (req, res) => {
         });
 });
 
-router.get('/*', function(req, res) {
-    res.sendFile(path.join(__dirname, '/client/public/index.html'), function(err) {
-      if (err) {
-        res.status(500).send(err)
-      }
-    })
-  })
+// router.get('/*', function(req, res) {
+//     res.sendFile(path.join(__dirname, '/client/public/index.html'), function(err) {
+//       if (err) {
+//         res.status(500).send(err)
+//       }
+//     })
+//   })
 
-  
 router.post('/save', (req, res) => {
     console.log('Body:', req.body);
 
