@@ -91,4 +91,4 @@ You will also see any lint errors in the console.
 
 ## Reflection 
 This is a project built for my B.Tech. course. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
-Originally the idea was presented by my supervisor Mr. Purnendu Karmakar and co-supervisor Dr. Sandeep Saini, and with further research and discussion.
+Originally the idea was presented by my supervisor Mr. Purnendu Karmakar and co-supervisor Dr. Sandeep Saini. And with further research and discussion, I created the wireframes and basic technologies to be used.
