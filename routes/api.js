@@ -7,7 +7,7 @@ const BlogPost = require('../models/blogPost');
  
 
 //Routes
-router.get('/*', (req, res) => {
+router.get('/', (req, res) => {
     BlogPost.find({ })
         .then((data) => {
             console.log('Data:', data);
@@ -18,7 +18,15 @@ router.get('/*', (req, res) => {
         });
 });
 
+router.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, '/client/public/index.html'), function(err) {
+      if (err) {
+        res.status(500).send(err)
+      }
+    })
+  })
 
+  
 router.post('/save', (req, res) => {
     console.log('Body:', req.body);
 
