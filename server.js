@@ -27,10 +27,12 @@ app.use(express.urlencoded({extended:false})); /// set true for very deep nested
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
 }
+// app.get('*', (req, res) => {
+// 	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+// });
+// var distDir = __dirname + "/client/public/";
+// app.use(express.static(distDir));
 
-var distDir = __dirname + "/public/";
-app.use(express.static(distDir));
- 
 //HTTP request logger
 app.use(morgan('tiny'));
 app.use('/api',routes);
