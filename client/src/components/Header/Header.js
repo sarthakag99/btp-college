@@ -43,7 +43,7 @@ const Header = () => {
                     <Nav.Item componentClass={Link} to="/lab" eventKey="lab" >Lab</Nav.Item>
                     <Nav.Item componentClass={Link} to="/achievements" eventKey="achievements" >Achievements</Nav.Item>
                     <Nav.Item componentClass={Link} to="/research" eventKey="research" >Research</Nav.Item>
-                    {/* <Nav.Item componentClass={Link} to="/classroom" eventKey="classroom" ><Icon icon='wechat' size="lg" /> Classroom </Nav.Item> */}
+                    <Nav.Item componentClass={Link} to="/classroom" eventKey="classroom" ><Icon icon='wechat' size="lg" /> Classroom </Nav.Item>
                 </Nav>
                 <Nav pullRight {...props} activeKey={active} onSelect={onSelect} style={styles.Nav}>
                     <Nav.Item componentClass={Link} to="/login" eventKey="login" >Login</Nav.Item>
